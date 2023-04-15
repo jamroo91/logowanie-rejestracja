@@ -1,10 +1,11 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <unordered_map>
 
 using namespace std;
 
 int main() {
+	setlocale(LC_ALL, "");
 	unordered_map<string, string> users;
 
 	bool running = true;
